@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356/operations/9E4F38246EBEC126",
+    "operationId": "9E4F38246EBEC126",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-10-05T16:21:46.0747848Z",
+      "duration": "PT3M1.7912484S",
+      "trackingId": "75dd81ea-6a4b-4a02-9620-cd9a6f37e0c0",
+      "serviceRequestId": "59815c24-9cb4-4954-9112-ad6bdd286211",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/ClusterMonitoringMetricPulisherRoleAssignmentDepl-20211005111705",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "ClusterMonitoringMetricPulisherRoleAssignmentDepl-20211005111705"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356/operations/8189DE2922C04C4A",
+    "operationId": "8189DE2922C04C4A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-10-05T16:21:41.2667671Z",
+      "duration": "PT2M56.9832307S",
+      "trackingId": "790f9386-df7d-4323-a630-483be8dc970a",
+      "serviceRequestId": "36d7c29d-e6a3-4390-8887-5efa93c04564",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4",
+        "resourceType": "Microsoft.ContainerService/managedClusters",
+        "resourceName": "Clustergrupo4"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356/operations/0B339449D59328E4",
+    "operationId": "0B339449D59328E4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-10-05T16:19:58.8411333Z",
+      "duration": "PT2M43.0437782S",
+      "trackingId": "df5ee5d5-1e76-4dcb-afb5-6b158c77d0cd",
+      "serviceRequestId": "3f5a9aa7-3f67-47aa-bcf6-099725b40d47",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Resources/deployments/SolutionDeployment-20211005111705",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "SolutionDeployment-20211005111705"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356/operations/21580AC0FB493967",
+    "operationId": "21580AC0FB493967",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-10-05T16:18:44.0607956Z",
+      "duration": "PT1M28.2634405S",
+      "trackingId": "ca609195-bda9-45c0-942e-22b6a529d2ce",
+      "serviceRequestId": "730a19c2-1201-4f56-aa4f-68823110cffb",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Resources/deployments/WorkspaceDeployment-20211005111705",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "WorkspaceDeployment-20211005111705"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356/operations/08585681562512142880",
+    "operationId": "08585681562512142880",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-10-05T16:21:46.4888588Z",
+      "duration": "PT0.2298727S",
+      "trackingId": "80220766-3ef4-4acc-9423-a9ff39c70722",
+      "statusCode": "OK"
+    }
+  }
+]

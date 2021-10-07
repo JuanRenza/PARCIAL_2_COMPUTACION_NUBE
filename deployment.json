@@ -1,0 +1,174 @@
+{
+  "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/microsoft.aks-20211005110356",
+  "name": "microsoft.aks-20211005110356",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourcegroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4",
+    "marketplaceItemId": "microsoft.aks",
+    "provisioningHash": "postCreateId"
+  },
+  "properties": {
+    "templateHash": "765496703232765007",
+    "parameters": {
+      "resourceName": {
+        "type": "String",
+        "value": "Clustergrupo4"
+      },
+      "location": {
+        "type": "String",
+        "value": "centralus"
+      },
+      "dnsPrefix": {
+        "type": "String",
+        "value": "Clustergrupo4-dns"
+      },
+      "osDiskSizeGB": {
+        "type": "Int",
+        "value": 0
+      },
+      "kubernetesVersion": {
+        "type": "String",
+        "value": "1.20.9"
+      },
+      "networkPlugin": {
+        "type": "String",
+        "value": "kubenet"
+      },
+      "enableRBAC": {
+        "type": "Bool",
+        "value": true
+      },
+      "vmssNodePool": {
+        "type": "Bool",
+        "value": true
+      },
+      "windowsProfile": {
+        "type": "Bool",
+        "value": false
+      },
+      "enablePrivateCluster": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableHttpApplicationRouting": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableAzurePolicy": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableOmsAgent": {
+        "type": "Bool",
+        "value": true
+      },
+      "workspaceRegion": {
+        "type": "String",
+        "value": "centralus"
+      },
+      "workspaceName": {
+        "type": "String",
+        "value": "DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS"
+      },
+      "omsWorkspaceId": {
+        "type": "String",
+        "value": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS"
+      },
+      "omsSku": {
+        "type": "String",
+        "value": "standalone"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-10-05T16:21:46.6610847Z",
+    "duration": "PT4M32.3977103S",
+    "correlationId": "70c95cff-9e4d-4f79-bb05-d8c3a02d39d4",
+    "providers": [
+      {
+        "namespace": "Microsoft.ContainerService",
+        "resourceTypes": [
+          {
+            "resourceType": "managedClusters",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Resources/deployments/WorkspaceDeployment-20211005111705",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "WorkspaceDeployment-20211005111705"
+          }
+        ],
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4",
+        "resourceType": "Microsoft.ContainerService/managedClusters",
+        "resourceName": "Clustergrupo4"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Resources/deployments/WorkspaceDeployment-20211005111705",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "WorkspaceDeployment-20211005111705"
+          }
+        ],
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Resources/deployments/SolutionDeployment-20211005111705",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "SolutionDeployment-20211005111705"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4",
+            "resourceType": "Microsoft.ContainerService/managedClusters",
+            "resourceName": "Clustergrupo4"
+          }
+        ],
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.Resources/deployments/ClusterMonitoringMetricPulisherRoleAssignmentDepl-20211005111705",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "ClusterMonitoringMetricPulisherRoleAssignmentDepl-20211005111705"
+      }
+    ],
+    "outputs": {
+      "controlPlaneFQDN": {
+        "type": "String",
+        "value": "clustergrupo4-dns-0b7116d9.hcp.centralus.azmk8s.io"
+      }
+    },
+    "outputResources": [
+      {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS"
+      },
+      {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.OperationsManagement/solutions/ContainerInsights(DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS)"
+      },
+      {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4"
+      },
+      {
+        "id": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/GRUPO4/providers/Microsoft.ContainerService/managedClusters/Clustergrupo4/providers/Microsoft.Authorization/roleAssignments/4feb947a-d2d0-4297-aa2d-400e79d242d3"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

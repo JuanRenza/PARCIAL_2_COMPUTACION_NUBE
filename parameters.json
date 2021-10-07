@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "Clustergrupo4"
+        },
+        "location": {
+            "value": "centralus"
+        },
+        "dnsPrefix": {
+            "value": "Clustergrupo4-dns"
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "kubernetesVersion": {
+            "value": "1.20.9"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "windowsProfile": {
+            "value": false
+        },
+        "enablePrivateCluster": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableAzurePolicy": {
+            "value": false
+        },
+        "enableOmsAgent": {
+            "value": true
+        },
+        "workspaceRegion": {
+            "value": "centralus"
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/942ad949-52a9-48b2-ac9b-09615956aa87/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-942ad949-52a9-48b2-ac9b-09615956aa87-CUS"
+        },
+        "omsSku": {
+            "value": "standalone"
+        }
+    }
+}
